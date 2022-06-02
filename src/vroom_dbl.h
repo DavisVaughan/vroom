@@ -62,6 +62,7 @@ public:
         info.errors,
         "a double",
         *info.na);
+    Rprintf("hi there\n");
     info.errors->warn_for_errors();
     return out;
   }
