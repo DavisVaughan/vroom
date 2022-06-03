@@ -233,6 +233,7 @@ cpp11::doubles read_dbl(vroom_vec_info* info) {
     Rf_errorcall(R_NilValue, "%s", e.what());
   }
 
+  Rprintf("hi there2\n");
   info->errors->warn_for_errors();
 
   return out;
