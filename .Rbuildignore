@@ -41,3 +41,4 @@
 ^img$
 ^investigations$
 ^debug$
+^\.vscode$
